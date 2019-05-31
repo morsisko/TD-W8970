@@ -19,6 +19,7 @@ You may specify:
 * Timeout - in sec (default: 10s)
 
 You may retrieve
+* status_code - http status code (200 == OK)
 * downstreamCurrRate
 * downstreamMaxRate
 * upstreamCurrRate
