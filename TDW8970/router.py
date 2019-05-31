@@ -48,7 +48,6 @@ class Router:
 
     def get(self, timeout=10):
         r = requests.post(Router.URL.format(self.host), cookies=self.cookies, headers=self.headers, data=Router.PAYLOAD, timeout=timeout)
-        print(r.status_code, r.text)
         return ADSLStats(r.status_code, self._parse_response(r.text))
 
     
