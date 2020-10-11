@@ -1,6 +1,9 @@
 # TD-W8970
 Python library for scraping ADSL connection statistics from TD-W8970 router.
 
+# Installation
+`pip install TDW8970`
+
 # Create router object
 ```python
 router = router.Router(username="admin", password="admin")
